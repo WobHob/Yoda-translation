@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@200&display=swap');
+:root {
+    --site-color: #D6D8DC;
+    --font-color: #162142;
+    --app-color: turquoise;
+    --font-default:'Noto Sans Display', sans-serif;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--site-color);
+    font-family: var(--font-default);
+
+}
+.navigation {
+    line-height: 0px;
+    padding: 0.5rem;
+}
+
+#txtArea {
+    height: 15vh;
+    width: 75%;
+    padding:1rem 1rem;
+    font-size:1rem;
+    font-weight: bold;
+    background-color: var(--app-color);
+    border-radius: 10px;
+    border: 1px solid var(--font-color);
+    font-family: var(--font-default);
+    margin-bottom: 2rem;
+   
+}
+
+#div-output {
+    border: 1px solid var(--font-color);
+    height: 15vh;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+    padding:2rem 2rem;
+}
+
+.container-centre {
+    background-color: var(--app-color);
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    color: var(--font-color);
+    border-radius: 10px;
+    border: 1px solid var(--font-color);
+    margin-top: 50px;
+    padding:3rem 3rem;
+}
+
+
+#btn-translate {
+    background-color: var(--site-color);
+    color: black;
+    font-size:1rem;
+    border-radius: 5px;
+    border: 1px solid var(--font-color);
+    font-family: var(--font-default);
+   
+}
+
+.link {
+    text-decoration: none;
+    color: var(--text-color);
+    padding-right: 1rem;
+
+}
+
+.footer {
+    padding: auto;
+}
